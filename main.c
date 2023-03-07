@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:28:45 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/06 17:02:41 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:17:10 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -16,6 +16,8 @@
 #include "ft_isalnum.c"
 #include "ft_isascii.c"
 #include "ft_isprint.c"
+#include "ft_strlen.c"
+#include "ft_memset.c"
 
 int main (void)
 {
@@ -45,5 +47,16 @@ int main (void)
 	printf("\nisprint test 1: 'A' = %d", ft_isprint('A'));
 	printf("\nisprint test 2: '3' = %d", ft_isprint('3'));
 	printf("\nisprint test 3: '$' = %d\n", ft_isprint('$'));
+
+	//ft_strlen() tests:
+	printf("\nstrlen test 1: 'Hi' = %d", ft_strlen("Hi"));
+	printf("\nstrlen test 2: 'Hello' = %d", ft_strlen("Hello"));
+	printf("\nstrlen test 3: 'Testing' = %d", ft_strlen("Testing"));
+
+	//ft_memset() tests:
+	char str[20] = "ABCD EFGH";
+	printf("\nmemset test: Before = '%s'\n", str);
+	printf("After = %s", ft_memset(str, 'x', 4));
+
 	return(0);
 }
