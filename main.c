@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:28:45 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/09 10:22:21 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/09 14:25:14 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -19,6 +19,7 @@
 #include "ft_strlen.c"
 #include "ft_memset.c"
 #include "ft_bzero.c"
+#include "ft_memcpy.c"
 
 int main (void)
 {
@@ -65,5 +66,13 @@ int main (void)
 	ft_bzero(str2, 4);
 	printf("After = '%s'", str2);
 
+	//ft_memcpy() tests:
+	char dest[20] = "Destination";
+	char src[20] = "Source";
+	printf("\n\nMemcpy test:\n");
+	printf("\nPre-memcpy:\nDestination = '%s'\nSource = '%s'\n", dest, src);
+	ft_memcpy(dest, src, 20);
+	printf("\nPost-memcpy:\nDestination = '%s'\nSource = '%s'\n", dest, src);
+	
 	return(0);
 }
