@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:28:45 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/09 14:25:14 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/10 11:39:42 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -20,6 +20,10 @@
 #include "ft_memset.c"
 #include "ft_bzero.c"
 #include "ft_memcpy.c"
+#include "ft_memmove.c"
+#include "ft_toupper.c"
+#include "ft_tolower.c"
+#include "ft_strchr.c"
 
 int main (void)
 {
@@ -55,6 +59,23 @@ int main (void)
 	printf("\nstrlen test 2: 'Hello' = %d", ft_strlen("Hello"));
 	printf("\nstrlen test 3: 'Testing' = %d\n", ft_strlen("Testing"));
 
+	//ft_toupper() tests:
+	printf("\nft_toupper test 1: 'a' = %c", ft_toupper('a'));
+	printf("\nft_toupper test 2: 'A' = %c", ft_toupper('A'));
+	printf("\nft_toupper test 3: 'b' = %c\n", ft_toupper('b'));
+
+	//ft_tolower() tests:
+	printf("\nft_tolower test 1: 'A' = %c", ft_tolower('A'));
+	printf("\nft_tolower test 2: 'a' = %c", ft_tolower('a'));
+	printf("\nft_tolower test 3: 'B' = %c\n", ft_tolower('B'));
+
+	//ft_strchr() tests:
+	printf("\nft_strchr test 1: Before = 'ABC'");
+	printf("\nAfter = '%s'", ft_strchr("ABC", 'B'));
+
+	printf("\nft_strchr test 2: Before = 'DEF'");
+	printf("\nAfter = '%s'\n", ft_strchr("DEF", 'E'));
+
 	//ft_memset() tests:
 	char str[20] = "ABCD EFGH";
 	printf("\nmemset test: Before = '%s'\n", str);
@@ -73,6 +94,6 @@ int main (void)
 	printf("\nPre-memcpy:\nDestination = '%s'\nSource = '%s'\n", dest, src);
 	ft_memcpy(dest, src, 20);
 	printf("\nPost-memcpy:\nDestination = '%s'\nSource = '%s'\n", dest, src);
-	
+
 	return(0);
 }
