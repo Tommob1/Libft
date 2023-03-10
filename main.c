@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:28:45 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/10 11:39:42 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/10 13:23:45 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -24,6 +24,7 @@
 #include "ft_toupper.c"
 #include "ft_tolower.c"
 #include "ft_strchr.c"
+#include "ft_strrchr.c"
 
 int main (void)
 {
@@ -70,11 +71,18 @@ int main (void)
 	printf("\nft_tolower test 3: 'B' = %c\n", ft_tolower('B'));
 
 	//ft_strchr() tests:
-	printf("\nft_strchr test 1: Before = 'ABC'");
+	printf("\nft_strchr test 1 'B': Before = 'ABC'");
 	printf("\nAfter = '%s'", ft_strchr("ABC", 'B'));
 
-	printf("\nft_strchr test 2: Before = 'DEF'");
-	printf("\nAfter = '%s'\n", ft_strchr("DEF", 'E'));
+	printf("\nft_strchr test 2 'E': Before = 'DEEF'");
+	printf("\nAfter = '%s'\n", ft_strchr("DEEF", 'E'));
+
+	//ft_strrchr() tests:
+	printf("\nft_strrchr test 1 'C': Before = 'ABCDEFCD'");
+	printf("\nAfter = '%s'", ft_strrchr("ABCDEFCD", 'C'));
+
+	printf("\nft_strrchr test 2 'E': Before = 'DEEF'");
+	printf("\nAfter = '%s'\n", ft_strrchr("DEEF", 'E'));
 
 	//ft_memset() tests:
 	char str[20] = "ABCD EFGH";
