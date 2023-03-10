@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:28:45 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/10 13:23:45 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/10 14:53:11 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -25,6 +25,7 @@
 #include "ft_tolower.c"
 #include "ft_strchr.c"
 #include "ft_strrchr.c"
+#include "ft_strncmp.c"
 
 int main (void)
 {
@@ -83,6 +84,10 @@ int main (void)
 
 	printf("\nft_strrchr test 2 'E': Before = 'DEEF'");
 	printf("\nAfter = '%s'\n", ft_strrchr("DEEF", 'E'));
+
+	//ft_strncmp() tests:
+	printf("\nft_strncmp test 1 'hello' and 'Hello' up to 3 characters: %d\n", ft_strncmp("hello", "Hello", 4));
+	printf("ft_strncmp test 2 'a' and 'b': %d\n", ft_strncmp("a", "b", 1));
 
 	//ft_memset() tests:
 	char str[20] = "ABCD EFGH";
