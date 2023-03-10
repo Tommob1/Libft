@@ -6,11 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 10:37:19 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/10 11:35:12 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/10 11:38:10 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
 	while (*s != '\0')
 	{
