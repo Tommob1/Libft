@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 14:34:29 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/09 15:21:56 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:15:09 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*memmove(void *dst, const void *src, size_t len)
 {

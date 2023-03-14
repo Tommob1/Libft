@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 15:24:56 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/13 15:27:21 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/14 15:12:56 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	memcmp(const void *s1, const void *s2, size_t n)
 {
