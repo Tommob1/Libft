@@ -30,7 +30,8 @@ SOURCE = ft_bzero.c \
 		ft_toupper.c \
 		ft_memchr.c \
 		ft_memcmp.c \
-		ft_strlcpy.c 
+		ft_strlcpy.c \
+		ft_strlcat.c 
 
 OBJECTS = $(SOURCE:.c=.o)
 
