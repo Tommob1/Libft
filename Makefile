@@ -6,44 +6,47 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/14 11:43:16 by btomlins          #+#    #+#              #
-#    Updated: 2023/03/14 15:24:40 by btomlins         ###   ########.fr        #
+#    Updated: 2023/03/15 09:34:01 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+FLAG = -Wall -Wextra -Werror
 
-FLAGS = -Wall -Werror -Wextra
-
-COMP = gcc
+CC = gcc
 
 NAME = libft.a
 
-SOURCE = ft_isalpha.c \
-			ft_isdigit.c \
-			ft_isalnum.c \
-			ft_isascii.c \
-			ft_isprint.c \
-			ft_tolower.c \
-			ft_toupper.c \
-			ft_memchr.c \
-			ft_memcpy.c \ 
-			ft_memset.c \
-			ft_strchr.c \
-			ft_strlen.c \
-			ft_strncmp.c \
-			ft_strrchr.c
-OBJECT = $(SOURCE:.c=.o)
+SOURCE = ft_bzero.c \
+		ft_isalnum.c \
+		ft_isalpha.c \
+		ft_isascii.c \
+		ft_isdigit.c \
+		ft_isprint.c \
+		ft_memcpy.c \
+		ft_memset.c \
+		ft_memmove.c \
+		ft_strchr.c \
+		ft_strlen.c \
+		ft_tolower.c \
+		ft_toupper.c \
+		ft_memchr.c \
+		ft_memcmp.c \
+		ft_strlcpy.c 
+
+OBJECTS = $(SOURCE:.c=.o)
 
 all: $(NAME)
 
 %.o: %.c
-	$(COMP) $(FLAGS) -o $@ -c $<
+	$(CC) $(FLAG) -o $@ -c $<
 
-$(NAME):	$(OBJECT)
-				ar -src $(NAME) $(OBJECT)
+$(NAME):	$(OBJECTS)
+					#gcc $(FLAGS) -c $(SOURCE) -I./#
+					ar src  $(NAME) $(OBJECTS)
 
-clean:
-				rm -f $(OBJECT)
+clean:				
+					rm -f $(OBJECTS)
 
-fclean:     clean
-				rm -f $(NAME).a $(NAME).so
- 
- re: 		fclean all
+fclean:		clean	
+					rm -f $(NAME)
+
+re:			fclean all
