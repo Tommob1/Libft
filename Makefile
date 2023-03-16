@@ -32,7 +32,11 @@ SOURCE = ft_bzero.c \
 		ft_memcmp.c \
 		ft_strlcpy.c \
 		ft_strlcat.c \
-		ft_strnstr.c 
+		ft_strnstr.c \
+		ft_atoi.c \
+		ft_strrchr.c \
+		ft_strncmp.c \
+		ft_calloc.c 
 
 OBJECTS = $(SOURCE:.c=.o)
 
