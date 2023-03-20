@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 10:37:19 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/20 11:03:36 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/20 11:39:07 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	size_t a;
-	size_t b;
+	size_t	a;
+	size_t	b;
 
 	a = -1;
 	b = ft_strlen(s);

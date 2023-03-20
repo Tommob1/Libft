@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 11:42:55 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/20 11:34:12 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/20 11:39:42 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,4 @@ char	*ft_strrchr(const char *s, int c)
 	if ((char)c == s[a])
 		return ((char *)&s[a]);
 	return (b);
-
 }
