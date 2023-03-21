@@ -6,47 +6,37 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/17 10:54:48 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/20 13:13:01 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/21 10:24:36 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_substr(const char *s, unsigned int start, size_t len)
 {
-	size_t	i;
-	size_t	j;
-	char	*str;
-	size_t	s_len;
+	char	*ptr;
+	size_t	a;
+	size_t	b;
+	size_t	strlen;
 
-	s_len = ft_strlen(s);
-	if (!s)
-		return (NULL);
-	if (start >= s_len)
+	strlen = ft_strlen(s);
+	if (start > strlen)
+		return (ft_strdup(""));
+	if (len > strlen - start)
+		len = strlen - start;
+	a = 0;
+	b = 0;
+	ptr = (char *)malloc(len + 1);
+	if (!ptr)
+		return (0);
+	while (s[a])
 	{
-		len = 0;
-	}
-	else
-	{
-		if (s_len - start < len)
+		if (b < len && a >= start)
 		{
-			len = s_len - start;
+			ptr[b++] = s[a];
 		}
+		a++;
 	}
-	str = (char *)malloc(sizeof(char) * (len + 1));
-	if (!str)
-		return (NULL);
-	i = 0;
-	j = 0;
-	while (s[i])
-	{
-		if (len > 0 && i >= start && j < len)
-		{
-			str[j] = s[i];
-			j++;
-		}
-		i++;
-	}
-	str[j] = 0;
-	return (str);
+	ptr[b] = '\0';
+	return (ptr);
 }
