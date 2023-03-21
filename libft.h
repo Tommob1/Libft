@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 14:04:06 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/20 09:40:33 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/21 12:44:34 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,14 +32,15 @@ char	*ft_strchr(const char *s, int c);
 size_t	ft_strlen(const char *str);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strrchr(const char *s, int c);
-void    ft_bzero(void *s, size_t n);
-int     ft_memcmp(const void *s1, const void *s2, size_t n);
-size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize);
-size_t  ft_strlcat(char *dst, const char *src, size_t dstsize);
-char    *ft_strnstr(const char *haystack, const char *needle, size_t len);
-int     ft_atoi(const char *str);
-void    *ft_calloc(size_t count, size_t size);
-char    *ft_strdup(const char *s1);
-char    *ft_substr(char const *s, unsigned int start, size_t len);
+void	ft_bzero(void *s, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
+int		ft_atoi(const char *str);
+void	*ft_calloc(size_t count, size_t size);
+char	*ft_strdup(const char *s1);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif

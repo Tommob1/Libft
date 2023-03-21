@@ -37,7 +37,9 @@ SOURCE = ft_bzero.c \
 		ft_strrchr.c \
 		ft_strncmp.c \
 		ft_calloc.c \
-		ft_strdup.c 
+		ft_strdup.c \
+		ft_substr.c \
+		ft_strjoin.c 
 
 OBJECTS = $(SOURCE:.c=.o)
 
