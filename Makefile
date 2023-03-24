@@ -6,7 +6,7 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/14 11:43:16 by btomlins          #+#    #+#              #
-#    Updated: 2023/03/15 09:34:01 by btomlins         ###   ########.fr        #
+#    Updated: 2023/03/24 13:20:07 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 FLAG = -Wall -Wextra -Werror
@@ -52,6 +52,10 @@ SOURCE = ft_bzero.c \
 
 OBJECTS = $(SOURCE:.c=.o)
 
+BONUS = ft_lstnew.c  
+
+BONUS_OBJECTS = $(BONUS:%.c=%.o)
+
 all: $(NAME)
 
 %.o: %.c
@@ -60,6 +64,9 @@ all: $(NAME)
 $(NAME):	$(OBJECTS)
 					#gcc $(FLAGS) -c $(SOURCE) -I./#
 					ar src  $(NAME) $(OBJECTS)
+
+bonus: $(OBJECT) $(BONUS_OBJECTS)
+					ar src $(NAME) $(OBJECT) $(BONUS_OBJECTS)
 
 clean:				
 					rm -f $(OBJECTS)
