@@ -6,7 +6,7 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/14 11:43:16 by btomlins          #+#    #+#              #
-#    Updated: 2023/03/24 13:20:07 by btomlins         ###   ########.fr        #
+#    Updated: 2023/03/24 15:05:07 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 FLAG = -Wall -Wextra -Werror
@@ -50,7 +50,8 @@ SOURCE = ft_bzero.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
 		ft_lstadd_front.c \
-		ft_lstsize.c 
+		ft_lstsize.c \
+		ft_lstlast.c 
 
 OBJECTS = $(SOURCE:.c=.o)
 
