@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 16:15:31 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/24 16:17:52 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/27 12:19:43 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,11 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-
+	if (!lst || !f)
+		return ;
+	while (lst)
+	{
+		f(lst->content);
+		lst = lst->next;
+	}
 }
