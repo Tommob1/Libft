@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 11:43:18 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/23 11:52:25 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:39:38 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Applies the function ’f’ to each character of the string ’s’, 
+and passing its index as first argument to create a new string 
+resulting from successive applications of ’f’ */
 
 #include "libft.h"
 

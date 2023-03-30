@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 14:34:29 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/15 11:42:55 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:27:45 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Copies len bytes from string src to string dst
 
 #include "libft.h"
 

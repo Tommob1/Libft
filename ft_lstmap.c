@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/27 12:23:56 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/27 12:37:46 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:50:53 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Iterates the list ’lst’ and applies the function ’f’ 
+on the content of each node. Creates a new list resulting of the 
+successive applications of the function ’f’ */
 
 #include "libft.h"
 

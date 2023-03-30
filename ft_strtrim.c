@@ -6,9 +6,12 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/21 14:01:27 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/21 14:56:24 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:38:40 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates and returns a copy of ’s1’ with the characters specified in 
+’set’ removed from the beginning and the end of the string */
 
 #include "libft.h"
 

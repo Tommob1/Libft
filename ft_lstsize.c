@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 14:49:14 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/24 14:56:06 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:44:14 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Counts the number of nodes in a list
 
 #include "libft.h"
 

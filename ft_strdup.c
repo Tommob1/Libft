@@ -6,9 +6,12 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 16:51:01 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/17 10:44:17 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:35:35 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Allocates sufficient memory for a copy of the string s1, 
+//does the copy, and returns a pointer to it
 
 #include "libft.h"
 

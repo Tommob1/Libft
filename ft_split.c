@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/21 15:06:24 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/23 16:56:20 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:41:14 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates and returns an array
+of strings obtained by splitting ’s’ using the
+character ’c’ as a delimiter */
 
 #include "libft.h"
 

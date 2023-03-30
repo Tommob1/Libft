@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/15 12:53:53 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/15 13:16:15 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:29:35 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Copies up to dstsize - 1 characters from string src to dst
 
 #include "libft.h"
 

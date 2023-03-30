@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 09:49:10 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/09 11:38:28 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:25:30 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Changes n bytes of value s to 0
 
 #include "libft.h"
 

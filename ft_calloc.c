@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 15:54:40 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/16 16:45:56 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:34:55 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Contiguously allocates enough space for count objects 
+//that are size bytes of memory each and 
+//returns a pointer to the allocated memory
 
 #include "libft.h"
 

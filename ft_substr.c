@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/17 10:54:48 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/21 10:24:36 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:37:11 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Allocates and returns a substring from the string ‘s’
 
 #include "libft.h"
 

@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 14:38:08 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/24 14:44:15 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:42:55 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Adds the node 'new' at the beginning of the list */
 
 #include "libft.h"
 

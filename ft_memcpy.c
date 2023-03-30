@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 11:42:13 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/13 15:23:58 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:26:09 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Copies source memory to destination
 
 #include "libft.h"
 

@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 12:07:34 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/09 09:45:00 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:24:37 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Writes len bytes of value c
 
 #include "libft.h"
 

@@ -6,9 +6,12 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 15:46:35 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/24 16:00:10 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:48:41 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Deletes and frees the given node and every successor 
+of that node, using the function ’del’ and free(3). */
 
 #include "libft.h"
 

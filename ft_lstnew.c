@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 12:54:37 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/24 14:31:51 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:41:51 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates and returns a new node. 
+The member variable ’content’ is initialized with
+the value of the parameter ’content’. */
 
 #include "libft.h"
 

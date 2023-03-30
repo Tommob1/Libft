@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 10:37:19 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/20 11:39:07 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:36:25 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Locates the first occurrence of c in the string pointed to by s
 
 #include "libft.h"
 

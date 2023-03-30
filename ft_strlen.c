@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 11:00:54 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/20 09:46:06 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:23:40 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//returns length of a given string
 
 #include "libft.h"
 

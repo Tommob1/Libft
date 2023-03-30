@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 15:24:56 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/15 12:48:18 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:28:34 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Compares byte string s1 against byte string s2
 
 #include "libft.h"
 

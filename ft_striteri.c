@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 11:58:44 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/23 12:16:14 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:40:08 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Applies the function ’f’ on each character of
+the string passed as argument, passing its index
+as first argument */
 
 #include "libft.h"
 

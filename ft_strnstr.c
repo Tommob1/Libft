@@ -6,9 +6,12 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/15 13:51:54 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/16 12:52:00 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:33:03 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Locates the first occurrence of the null-terminated string needle 
+//in the string haystack, in no more than len characters
 
 #include "libft.h"
 

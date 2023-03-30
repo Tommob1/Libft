@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 15:00:47 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/24 15:06:20 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:45:02 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Returns the last node of the list
 
 #include "libft.h"
 

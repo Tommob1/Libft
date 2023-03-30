@@ -6,9 +6,13 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/21 10:37:20 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/21 13:42:53 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:37:47 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Allocates and returns a new
+//string, which is the result of the concatenation
+//of ’s1’ and ’s2’.
 
 #include "libft.h"
 

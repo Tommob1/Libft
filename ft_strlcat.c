@@ -6,9 +6,11 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/15 13:24:42 by btomlins          #+#    #+#             */
-/*   Updated: 2023/03/29 14:57:05 by btomlins         ###   ########.fr       */
+/*   Updated: 2023/03/30 16:31:14 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Appends string src to the end of dst
 
 #include "libft.h"
 
